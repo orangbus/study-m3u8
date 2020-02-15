@@ -5,15 +5,17 @@
 - Videojs : <https://github.com/videojs/video.js>
 - Dplayer:  <https://dplayer.js.org/zh>
 
-Video中文文档：
+Videojs中文文档：https://github.com/ShmilyLin/video.js.zh-cn
+
+p2p加速的（暂时还没有研究过）：http://docs.cdnbye.com/
 
 项目中使用了 mdui 框架布局，其他就没什么了。
 
 ## How to run project
 
 ```
-git clone 
-cd 
+git clone https://github.com/orangbus/study-m3u8.git --depth 1
+cd study-m3u8
 npm i
 npm run serve
 ```
@@ -179,3 +181,12 @@ playerThree(){
     mdui.snackbar("如果视频未开始播放，请手动个点击一下视频播放图标按钮")
 }
 ```
+
+附上几个m3u8的测试地址(聪明的你找规律)
+
+```
+http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
+
+http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
+```
+
